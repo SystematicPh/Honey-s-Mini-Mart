@@ -1,0 +1,33 @@
+/* fonts.css */
+
+/* Import AppleGaramond */
+@font-face {
+  font-family: 'AppleGaramond';
+  src: url('/fonts/AppleGaramond-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Import Fredoka */
+@font-face {
+  font-family: 'Fredoka';
+  src: url('/fonts/Fredoka-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Import SpunkyPiano Demo */
+@font-face {
+  font-family: 'SpunkyPiano Demo';
+  src: url('/fonts/spunkypianoDEMO.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Create CSS classes */
+.font-apple { font-family: 'AppleGaramond', serif; }
+.font-fredoka { font-family: 'Fredoka', sans-serif; }
+.font-spunky { font-family: 'SpunkyPiano Demo', cursive; }
